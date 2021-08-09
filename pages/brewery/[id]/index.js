@@ -1,10 +1,7 @@
-// import { useRouter } from "next/router";
 import Link from "next/link";
 import Meta from "../../../components/Meta";
 
 const brewery = ({ brewery }) => {
-  // const router = useRouter();
-  // const { id } = router.query;
   const url = brewery.website_url;
   const city = brewery.city;
   const name = brewery.name;
